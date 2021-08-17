@@ -14,6 +14,8 @@ public class SalesClass {
 	
 	public void print() {
 		System.out.println("Print all the array number:");
+		for(int i=0;i<100;i++)
+			System.out.println("All array:" + i);
 		display();
 		
 	}
